@@ -176,6 +176,17 @@ const names = {
 		'fixture.doc',
 		'fixture.ppt',
 		'fixture-2.doc'
+	],
+	ai: [
+		'fixture-normal', // Normal AI
+		'fixture-without-pdf-compatibility' // AI without the PDF compatibility (cannot be opened by PDF viewers I guess)
+	],
+	pdf: [
+		'fixture',
+		'fixture-adobe-illustrator', // PDF saved from Adobe Illustrator, using the default "[Illustrator Default]" preset
+		'fixture-smallest', // PDF saved from Adobe Illustrator, using the preset "smallest PDF"
+		'fixture-fast-web', // PDF saved from Adobe Illustrator,using the default "[Illustrator Default"] preset, but enabling "Optimize for Fast Web View"
+		'fixture-printed' // PDF printed from Adobe Illustrator, but with a PDF printer.
 	]
 };
 
